@@ -1,0 +1,668 @@
+2023-03-10 01:13:10.310 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : Starting UserApplication on Kevin-PC with PID 19644 (E:\Project\Creation\user-system\target\classes started by Home in E:\Project\Creation\user-system)
+2023-03-10 01:13:10.312 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : No active profile set, falling back to default profiles: default
+2023-03-10 01:13:11.489 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : Started UserApplication in 1.5 seconds (JVM running for 2.537)
+2023-03-10 01:32:02.328 INFO  --- [           main] com.zeyi.user.service.UserServiceTest    : Starting UserServiceTest on Kevin-PC with PID 21560 (started by Home in E:\Project\Creation\user-system)
+2023-03-10 01:32:02.330 INFO  --- [           main] com.zeyi.user.service.UserServiceTest    : No active profile set, falling back to default profiles: default
+2023-03-10 01:32:03.935 INFO  --- [           main] com.zeyi.user.service.UserServiceTest    : Started UserServiceTest in 1.876 seconds (JVM running for 3.042)
+2023-03-10 01:32:13.255 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 01:32:13.284 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112210(String)
+2023-03-10 01:32:13.306 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 0
+2023-03-10 01:32:27.772 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==>  Preparing: insert into user_info (name, age, sex, phone, address, del_flag, create_time, update_time, remarks ) values (?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2023-03-10 01:32:27.789 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==> Parameters: 小明1(String), 20(Integer), 0(String), 13411112210(String), 广东省广州市番禺区10街10号(String), null, 2023-03-10 01:32:26.111(Timestamp), null, null
+2023-03-10 01:32:27.792 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : <==    Updates: 1
+2023-03-10 01:32:27.792 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==>  Preparing: SELECT LAST_INSERT_ID() 
+2023-03-10 01:32:27.793 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==> Parameters: 
+2023-03-10 01:32:27.808 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : <==      Total: 1
+2023-03-10 01:32:28.802 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 新增User成功！
+2023-03-10 01:33:36.537 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 01:33:36.538 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112211(String)
+2023-03-10 01:33:36.540 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 0
+2023-03-10 01:34:11.587 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==>  Preparing: insert into user_info (name, age, sex, phone, address, del_flag, create_time, update_time, remarks ) values (?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2023-03-10 01:34:11.592 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==> Parameters: 小明2(String), 21(Integer), 0(String), 13411112211(String), 广东省广州市番禺区11街10号(String), null, 2023-03-10 01:34:11.586(Timestamp), null, null
+2023-03-10 01:34:11.596 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : <==    Updates: 1
+2023-03-10 01:34:11.596 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==>  Preparing: SELECT LAST_INSERT_ID() 
+2023-03-10 01:34:11.597 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==> Parameters: 
+2023-03-10 01:34:11.598 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : <==      Total: 1
+2023-03-10 01:34:11.599 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 新增User成功！
+2023-03-10 01:34:14.002 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 01:34:14.003 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112212(String)
+2023-03-10 01:34:14.005 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 0
+2023-03-10 01:34:18.499 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==>  Preparing: insert into user_info (name, age, sex, phone, address, del_flag, create_time, update_time, remarks ) values (?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2023-03-10 01:34:18.504 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==> Parameters: 小明3(String), 22(Integer), 0(String), 13411112212(String), 广东省广州市番禺区12街10号(String), null, 2023-03-10 01:34:17.769(Timestamp), null, null
+2023-03-10 01:34:18.508 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : <==    Updates: 1
+2023-03-10 01:34:18.508 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==>  Preparing: SELECT LAST_INSERT_ID() 
+2023-03-10 01:34:18.508 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==> Parameters: 
+2023-03-10 01:34:18.510 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : <==      Total: 1
+2023-03-10 01:34:19.076 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 新增User成功！
+2023-03-10 01:34:44.611 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 01:34:44.614 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112213(String)
+2023-03-10 01:34:44.616 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 0
+2023-03-10 01:34:44.618 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==>  Preparing: insert into user_info (name, age, sex, phone, address, del_flag, create_time, update_time, remarks ) values (?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2023-03-10 01:34:44.623 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==> Parameters: 小明4(String), 23(Integer), 0(String), 13411112213(String), 广东省广州市番禺区13街10号(String), null, 2023-03-10 01:34:44.617(Timestamp), null, null
+2023-03-10 01:34:44.627 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : <==    Updates: 1
+2023-03-10 01:34:44.627 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==>  Preparing: SELECT LAST_INSERT_ID() 
+2023-03-10 01:34:44.628 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==> Parameters: 
+2023-03-10 01:34:44.629 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : <==      Total: 1
+2023-03-10 01:34:44.630 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 新增User成功！
+2023-03-10 01:34:44.631 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 01:34:44.632 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112214(String)
+2023-03-10 01:34:44.634 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 0
+2023-03-10 01:34:44.635 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==>  Preparing: insert into user_info (name, age, sex, phone, address, del_flag, create_time, update_time, remarks ) values (?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2023-03-10 01:34:44.640 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==> Parameters: 小明5(String), 24(Integer), 0(String), 13411112214(String), 广东省广州市番禺区14街10号(String), null, 2023-03-10 01:34:44.634(Timestamp), null, null
+2023-03-10 01:34:44.644 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : <==    Updates: 1
+2023-03-10 01:34:44.646 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==>  Preparing: SELECT LAST_INSERT_ID() 
+2023-03-10 01:34:44.647 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==> Parameters: 
+2023-03-10 01:34:44.648 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : <==      Total: 1
+2023-03-10 01:34:44.648 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 新增User成功！
+2023-03-10 01:34:44.649 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 01:34:44.653 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112215(String)
+2023-03-10 01:34:44.658 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 0
+2023-03-10 01:34:44.662 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==>  Preparing: insert into user_info (name, age, sex, phone, address, del_flag, create_time, update_time, remarks ) values (?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2023-03-10 01:34:44.669 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==> Parameters: 小明6(String), 25(Integer), 0(String), 13411112215(String), 广东省广州市番禺区15街10号(String), null, 2023-03-10 01:34:44.662(Timestamp), null, null
+2023-03-10 01:34:44.673 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : <==    Updates: 1
+2023-03-10 01:34:44.673 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==>  Preparing: SELECT LAST_INSERT_ID() 
+2023-03-10 01:34:44.673 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==> Parameters: 
+2023-03-10 01:34:44.674 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : <==      Total: 1
+2023-03-10 01:34:44.675 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 新增User成功！
+2023-03-10 01:34:44.676 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 01:34:44.677 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112216(String)
+2023-03-10 01:34:44.679 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 0
+2023-03-10 01:34:44.680 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==>  Preparing: insert into user_info (name, age, sex, phone, address, del_flag, create_time, update_time, remarks ) values (?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2023-03-10 01:34:44.685 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==> Parameters: 小明7(String), 26(Integer), 0(String), 13411112216(String), 广东省广州市番禺区16街10号(String), null, 2023-03-10 01:34:44.68(Timestamp), null, null
+2023-03-10 01:34:44.688 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : <==    Updates: 1
+2023-03-10 01:34:44.688 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==>  Preparing: SELECT LAST_INSERT_ID() 
+2023-03-10 01:34:44.688 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==> Parameters: 
+2023-03-10 01:34:44.690 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : <==      Total: 1
+2023-03-10 01:34:44.691 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 新增User成功！
+2023-03-10 01:34:44.692 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 01:34:44.693 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112217(String)
+2023-03-10 01:34:44.696 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 0
+2023-03-10 01:34:44.697 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==>  Preparing: insert into user_info (name, age, sex, phone, address, del_flag, create_time, update_time, remarks ) values (?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2023-03-10 01:34:44.702 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==> Parameters: 小明8(String), 27(Integer), 0(String), 13411112217(String), 广东省广州市番禺区17街10号(String), null, 2023-03-10 01:34:44.697(Timestamp), null, null
+2023-03-10 01:34:44.705 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : <==    Updates: 1
+2023-03-10 01:34:44.705 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==>  Preparing: SELECT LAST_INSERT_ID() 
+2023-03-10 01:34:44.705 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==> Parameters: 
+2023-03-10 01:34:44.712 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : <==      Total: 1
+2023-03-10 01:34:44.717 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 新增User成功！
+2023-03-10 01:34:44.718 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 01:34:44.719 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112218(String)
+2023-03-10 01:34:44.721 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 0
+2023-03-10 01:34:44.722 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==>  Preparing: insert into user_info (name, age, sex, phone, address, del_flag, create_time, update_time, remarks ) values (?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2023-03-10 01:34:44.727 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==> Parameters: 小明9(String), 28(Integer), 0(String), 13411112218(String), 广东省广州市番禺区18街10号(String), null, 2023-03-10 01:34:44.721(Timestamp), null, null
+2023-03-10 01:34:44.730 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : <==    Updates: 1
+2023-03-10 01:34:44.730 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==>  Preparing: SELECT LAST_INSERT_ID() 
+2023-03-10 01:34:44.731 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==> Parameters: 
+2023-03-10 01:34:44.732 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : <==      Total: 1
+2023-03-10 01:34:44.732 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 新增User成功！
+2023-03-10 01:34:44.734 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 01:34:44.734 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112219(String)
+2023-03-10 01:34:44.736 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 0
+2023-03-10 01:34:44.737 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==>  Preparing: insert into user_info (name, age, sex, phone, address, del_flag, create_time, update_time, remarks ) values (?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2023-03-10 01:34:44.742 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==> Parameters: 小明10(String), 29(Integer), 0(String), 13411112219(String), 广东省广州市番禺区19街10号(String), null, 2023-03-10 01:34:44.736(Timestamp), null, null
+2023-03-10 01:34:44.745 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : <==    Updates: 1
+2023-03-10 01:34:44.745 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==>  Preparing: SELECT LAST_INSERT_ID() 
+2023-03-10 01:34:44.745 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==> Parameters: 
+2023-03-10 01:34:44.747 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : <==      Total: 1
+2023-03-10 01:34:44.748 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 新增User成功！
+2023-03-10 01:34:44.749 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 01:34:44.750 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112220(String)
+2023-03-10 01:34:44.752 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 0
+2023-03-10 01:34:44.753 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==>  Preparing: insert into user_info (name, age, sex, phone, address, del_flag, create_time, update_time, remarks ) values (?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2023-03-10 01:34:44.758 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==> Parameters: 小明11(String), 30(Integer), 0(String), 13411112220(String), 广东省广州市番禺区20街10号(String), null, 2023-03-10 01:34:44.752(Timestamp), null, null
+2023-03-10 01:34:44.760 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : <==    Updates: 1
+2023-03-10 01:34:44.761 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==>  Preparing: SELECT LAST_INSERT_ID() 
+2023-03-10 01:34:44.761 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==> Parameters: 
+2023-03-10 01:34:44.763 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : <==      Total: 1
+2023-03-10 01:34:44.763 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 新增User成功！
+2023-03-10 01:34:44.764 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 01:34:44.765 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112221(String)
+2023-03-10 01:34:44.768 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 0
+2023-03-10 01:34:44.769 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==>  Preparing: insert into user_info (name, age, sex, phone, address, del_flag, create_time, update_time, remarks ) values (?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2023-03-10 01:34:44.774 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==> Parameters: 小明12(String), 31(Integer), 0(String), 13411112221(String), 广东省广州市番禺区21街10号(String), null, 2023-03-10 01:34:44.768(Timestamp), null, null
+2023-03-10 01:34:44.777 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : <==    Updates: 1
+2023-03-10 01:34:44.777 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==>  Preparing: SELECT LAST_INSERT_ID() 
+2023-03-10 01:34:44.777 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==> Parameters: 
+2023-03-10 01:34:44.779 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : <==      Total: 1
+2023-03-10 01:34:44.779 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 新增User成功！
+2023-03-10 01:34:44.780 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 01:34:44.781 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112222(String)
+2023-03-10 01:34:44.783 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 0
+2023-03-10 01:34:44.784 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==>  Preparing: insert into user_info (name, age, sex, phone, address, del_flag, create_time, update_time, remarks ) values (?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2023-03-10 01:34:44.789 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==> Parameters: 小明13(String), 32(Integer), 0(String), 13411112222(String), 广东省广州市番禺区22街10号(String), null, 2023-03-10 01:34:44.783(Timestamp), null, null
+2023-03-10 01:34:44.792 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : <==    Updates: 1
+2023-03-10 01:34:44.792 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==>  Preparing: SELECT LAST_INSERT_ID() 
+2023-03-10 01:34:44.792 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==> Parameters: 
+2023-03-10 01:34:44.794 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : <==      Total: 1
+2023-03-10 01:34:44.795 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 新增User成功！
+2023-03-10 01:34:44.796 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 01:34:44.797 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112223(String)
+2023-03-10 01:34:44.799 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 0
+2023-03-10 01:34:44.800 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==>  Preparing: insert into user_info (name, age, sex, phone, address, del_flag, create_time, update_time, remarks ) values (?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2023-03-10 01:34:44.805 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==> Parameters: 小明14(String), 33(Integer), 0(String), 13411112223(String), 广东省广州市番禺区23街10号(String), null, 2023-03-10 01:34:44.799(Timestamp), null, null
+2023-03-10 01:34:44.808 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : <==    Updates: 1
+2023-03-10 01:34:44.808 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==>  Preparing: SELECT LAST_INSERT_ID() 
+2023-03-10 01:34:44.808 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==> Parameters: 
+2023-03-10 01:34:44.809 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : <==      Total: 1
+2023-03-10 01:34:44.810 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 新增User成功！
+2023-03-10 01:34:44.811 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 01:34:44.811 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112224(String)
+2023-03-10 01:34:44.814 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 0
+2023-03-10 01:34:44.815 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==>  Preparing: insert into user_info (name, age, sex, phone, address, del_flag, create_time, update_time, remarks ) values (?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2023-03-10 01:34:44.819 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==> Parameters: 小明15(String), 34(Integer), 0(String), 13411112224(String), 广东省广州市番禺区24街10号(String), null, 2023-03-10 01:34:44.814(Timestamp), null, null
+2023-03-10 01:34:44.823 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : <==    Updates: 1
+2023-03-10 01:34:44.823 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==>  Preparing: SELECT LAST_INSERT_ID() 
+2023-03-10 01:34:44.824 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==> Parameters: 
+2023-03-10 01:34:44.825 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : <==      Total: 1
+2023-03-10 09:27:50.841 INFO  --- [           main] com.zeyi.user.UserApplicationTests       : Starting UserApplicationTests on Kevin-PC with PID 6912 (started by Home in E:\Project\Creation\user-system)
+2023-03-10 09:27:50.843 INFO  --- [           main] com.zeyi.user.UserApplicationTests       : No active profile set, falling back to default profiles: default
+2023-03-10 09:27:52.199 INFO  --- [           main] com.zeyi.user.UserApplicationTests       : Started UserApplicationTests in 1.578 seconds (JVM running for 2.409)
+2023-03-10 09:27:52.592 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 09:27:52.611 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112210(String)
+2023-03-10 09:27:52.636 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 1
+2023-03-10 09:27:52.639 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==>  Preparing: update user_info set name = ?, age = ?, sex = ?, phone = ?, address = ?, del_flag = ?, create_time = ?, update_time = ?, remarks = ? where id = ? 
+2023-03-10 09:27:52.641 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==> Parameters: 小明1(String), 20(Integer), 0(String), 13411112210(String), 广东省广州市番禺区10街10号(String), 0(String), null, 2023-03-10 09:27:52.639(Timestamp), null, 1(Integer)
+2023-03-10 09:27:52.645 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : <==    Updates: 1
+2023-03-10 09:27:52.645 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 用户已存在，更新User成功！
+2023-03-10 09:27:52.646 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 09:27:52.646 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112211(String)
+2023-03-10 09:27:52.647 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 1
+2023-03-10 09:27:52.648 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==>  Preparing: update user_info set name = ?, age = ?, sex = ?, phone = ?, address = ?, del_flag = ?, create_time = ?, update_time = ?, remarks = ? where id = ? 
+2023-03-10 09:27:52.648 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==> Parameters: 小明2(String), 21(Integer), 0(String), 13411112211(String), 广东省广州市番禺区11街10号(String), 0(String), null, 2023-03-10 09:27:52.648(Timestamp), null, 2(Integer)
+2023-03-10 09:27:52.651 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : <==    Updates: 1
+2023-03-10 09:27:52.651 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 用户已存在，更新User成功！
+2023-03-10 09:27:52.651 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 09:27:52.651 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112212(String)
+2023-03-10 09:27:52.653 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 1
+2023-03-10 09:27:52.654 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==>  Preparing: update user_info set name = ?, age = ?, sex = ?, phone = ?, address = ?, del_flag = ?, create_time = ?, update_time = ?, remarks = ? where id = ? 
+2023-03-10 09:27:52.655 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==> Parameters: 小明3(String), 22(Integer), 0(String), 13411112212(String), 广东省广州市番禺区12街10号(String), 0(String), null, 2023-03-10 09:27:52.654(Timestamp), null, 3(Integer)
+2023-03-10 09:27:52.657 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : <==    Updates: 1
+2023-03-10 09:27:52.658 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 用户已存在，更新User成功！
+2023-03-10 09:27:52.658 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 09:27:52.658 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112213(String)
+2023-03-10 09:27:52.659 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 1
+2023-03-10 09:27:52.659 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==>  Preparing: update user_info set name = ?, age = ?, sex = ?, phone = ?, address = ?, del_flag = ?, create_time = ?, update_time = ?, remarks = ? where id = ? 
+2023-03-10 09:27:52.660 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==> Parameters: 小明4(String), 23(Integer), 0(String), 13411112213(String), 广东省广州市番禺区13街10号(String), 0(String), null, 2023-03-10 09:27:52.659(Timestamp), null, 4(Integer)
+2023-03-10 09:27:52.663 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : <==    Updates: 1
+2023-03-10 09:27:52.663 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 用户已存在，更新User成功！
+2023-03-10 09:27:52.663 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 09:27:52.664 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112214(String)
+2023-03-10 09:27:52.665 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 1
+2023-03-10 09:27:52.666 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==>  Preparing: update user_info set name = ?, age = ?, sex = ?, phone = ?, address = ?, del_flag = ?, create_time = ?, update_time = ?, remarks = ? where id = ? 
+2023-03-10 09:27:52.666 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==> Parameters: 小明5(String), 24(Integer), 0(String), 13411112214(String), 广东省广州市番禺区14街10号(String), 0(String), null, 2023-03-10 09:27:52.665(Timestamp), null, 5(Integer)
+2023-03-10 09:27:52.668 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : <==    Updates: 1
+2023-03-10 09:27:52.668 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 用户已存在，更新User成功！
+2023-03-10 09:27:52.669 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 09:27:52.669 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112215(String)
+2023-03-10 09:27:52.670 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 0
+2023-03-10 09:27:52.670 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==>  Preparing: insert into user_info (name, age, sex, phone, address, del_flag, create_time, update_time, remarks ) values (?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2023-03-10 09:27:52.670 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==> Parameters: 小明6(String), 25(Integer), 0(String), 13411112215(String), 广东省广州市番禺区15街10号(String), 0(String), 2023-03-10 09:27:52.67(Timestamp), null, null
+2023-03-10 09:27:52.672 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : <==    Updates: 1
+2023-03-10 09:27:52.672 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==>  Preparing: SELECT LAST_INSERT_ID() 
+2023-03-10 09:27:52.673 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==> Parameters: 
+2023-03-10 09:27:52.675 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : <==      Total: 1
+2023-03-10 09:27:52.675 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 新增User成功！
+2023-03-10 09:27:52.675 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 09:27:52.675 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112216(String)
+2023-03-10 09:27:52.676 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 0
+2023-03-10 09:27:52.677 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==>  Preparing: insert into user_info (name, age, sex, phone, address, del_flag, create_time, update_time, remarks ) values (?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2023-03-10 09:27:52.678 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : ==> Parameters: 小明7(String), 26(Integer), 0(String), 13411112216(String), 广东省广州市番禺区16街10号(String), 0(String), 2023-03-10 09:27:52.676(Timestamp), null, null
+2023-03-10 09:27:52.680 DEBUG --- [           main] c.zeyi.user.mapper.UserInfoMapper.insert : <==    Updates: 1
+2023-03-10 09:27:52.680 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==>  Preparing: SELECT LAST_INSERT_ID() 
+2023-03-10 09:27:52.681 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : ==> Parameters: 
+2023-03-10 09:27:52.682 DEBUG --- [           main] c.z.u.m.UserInfoMapper.insert!selectKey  : <==      Total: 1
+2023-03-10 09:27:52.682 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 新增User成功！
+2023-03-10 09:27:52.683 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 09:27:52.683 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112217(String)
+2023-03-10 09:27:52.684 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 1
+2023-03-10 09:27:52.684 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==>  Preparing: update user_info set name = ?, age = ?, sex = ?, phone = ?, address = ?, del_flag = ?, create_time = ?, update_time = ?, remarks = ? where id = ? 
+2023-03-10 09:27:52.685 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==> Parameters: 小明8(String), 27(Integer), 0(String), 13411112217(String), 广东省广州市番禺区17街10号(String), 0(String), null, 2023-03-10 09:27:52.684(Timestamp), null, 8(Integer)
+2023-03-10 09:27:52.687 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : <==    Updates: 1
+2023-03-10 09:27:52.687 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 用户已存在，更新User成功！
+2023-03-10 09:27:52.688 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 09:27:52.688 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112218(String)
+2023-03-10 09:27:52.689 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 1
+2023-03-10 09:27:52.689 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==>  Preparing: update user_info set name = ?, age = ?, sex = ?, phone = ?, address = ?, del_flag = ?, create_time = ?, update_time = ?, remarks = ? where id = ? 
+2023-03-10 09:27:52.690 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==> Parameters: 小明9(String), 28(Integer), 0(String), 13411112218(String), 广东省广州市番禺区18街10号(String), 0(String), null, 2023-03-10 09:27:52.689(Timestamp), null, 9(Integer)
+2023-03-10 09:27:52.692 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : <==    Updates: 1
+2023-03-10 09:27:52.693 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 用户已存在，更新User成功！
+2023-03-10 09:27:52.693 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 09:27:52.693 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112219(String)
+2023-03-10 09:27:52.695 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 1
+2023-03-10 09:27:52.696 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==>  Preparing: update user_info set name = ?, age = ?, sex = ?, phone = ?, address = ?, del_flag = ?, create_time = ?, update_time = ?, remarks = ? where id = ? 
+2023-03-10 09:27:52.696 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==> Parameters: 小明10(String), 29(Integer), 0(String), 13411112219(String), 广东省广州市番禺区19街10号(String), 0(String), null, 2023-03-10 09:27:52.696(Timestamp), null, 10(Integer)
+2023-03-10 09:27:52.699 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : <==    Updates: 1
+2023-03-10 09:27:52.699 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 用户已存在，更新User成功！
+2023-03-10 09:27:52.700 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 09:27:52.700 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112220(String)
+2023-03-10 09:27:52.701 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 1
+2023-03-10 09:27:52.701 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==>  Preparing: update user_info set name = ?, age = ?, sex = ?, phone = ?, address = ?, del_flag = ?, create_time = ?, update_time = ?, remarks = ? where id = ? 
+2023-03-10 09:27:52.701 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==> Parameters: 小明11(String), 30(Integer), 0(String), 13411112220(String), 广东省广州市番禺区20街10号(String), 0(String), null, 2023-03-10 09:27:52.701(Timestamp), null, 11(Integer)
+2023-03-10 09:27:52.704 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : <==    Updates: 1
+2023-03-10 09:27:52.704 INFO  --- [           main] c.zeyi.user.service.impl.UserServiceImpl : 用户已存在，更新User成功！
+2023-03-10 09:27:52.704 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==>  Preparing: select id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks from user_info where phone = ? 
+2023-03-10 09:27:52.704 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : ==> Parameters: 13411112221(String)
+2023-03-10 09:27:52.705 DEBUG --- [           main] c.z.u.m.UserInfoMapper.selectByPhone     : <==      Total: 1
+2023-03-10 09:27:52.705 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==>  Preparing: update user_info set name = ?, age = ?, sex = ?, phone = ?, address = ?, del_flag = ?, create_time = ?, update_time = ?, remarks = ? where id = ? 
+2023-03-10 09:27:52.706 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : ==> Parameters: 小明12(String), 31(Integer), 0(String), 13411112221(String), 广东省广州市番禺区21街10号(String), 0(String), null, 2023-03-10 09:27:52.705(Timestamp), null, 12(Integer)
+2023-03-10 09:27:52.708 DEBUG --- [           main] c.z.u.m.U.updateByPrimaryKey             : <==    Updates: 1
+2023-03-10 10:16:55.214 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : Starting UserApplication on Kevin-PC with PID 10864 (E:\Project\Creation\user-system\target\classes started by Home in E:\Project\Creation\user-system)
+2023-03-10 10:16:55.216 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : No active profile set, falling back to default profiles: default
+2023-03-10 10:16:56.816 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : Started UserApplication in 1.92 seconds (JVM running for 2.919)
+2023-03-10 10:17:11.625 DEBUG --- [nio-8078-exec-1] c.z.user.mapper.UserInfoMapper.sleectIf  : ==>  Preparing: select * from user_info 
+2023-03-10 10:17:11.637 DEBUG --- [nio-8078-exec-1] c.z.user.mapper.UserInfoMapper.sleectIf  : ==> Parameters: 
+2023-03-10 10:17:11.656 DEBUG --- [nio-8078-exec-1] c.z.user.mapper.UserInfoMapper.sleectIf  : <==      Total: 20
+2023-03-10 20:02:09.755 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : Starting UserApplication on Kevin-PC with PID 34060 (E:\Project\Creation\user-system\target\classes started by Home in E:\Project\Creation\user-system)
+2023-03-10 20:02:09.764 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : No active profile set, falling back to default profiles: default
+2023-03-10 20:02:11.135 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : Started UserApplication in 1.707 seconds (JVM running for 2.694)
+2023-03-10 20:02:51.892 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : Starting UserApplication on Kevin-PC with PID 27680 (E:\Project\Creation\user-system\target\classes started by Home in E:\Project\Creation\user-system)
+2023-03-10 20:02:51.895 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : No active profile set, falling back to default profiles: default
+2023-03-10 20:02:53.123 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : Started UserApplication in 1.528 seconds (JVM running for 2.564)
+2023-03-10 20:02:58.584 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:02:58.605 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:02:58.627 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:02:58.632 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:02:58.632 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:02:58.641 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:04:02.290 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : Starting UserApplication on Kevin-PC with PID 22484 (E:\Project\Creation\user-system\target\classes started by Home in E:\Project\Creation\user-system)
+2023-03-10 20:04:02.292 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : No active profile set, falling back to default profiles: default
+2023-03-10 20:04:03.678 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : Started UserApplication in 1.684 seconds (JVM running for 2.671)
+2023-03-10 20:04:10.295 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:04:10.314 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:04:10.330 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:04:10.332 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:04:10.333 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:04:10.338 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:15:35.488 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : Starting UserApplication on Kevin-PC with PID 22484 (E:\Project\Creation\user-system\target\classes started by Home in E:\Project\Creation\user-system)
+2023-03-10 20:15:35.488 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : No active profile set, falling back to default profiles: default
+2023-03-10 20:15:35.876 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : Started UserApplication in 0.419 seconds (JVM running for 694.869)
+2023-03-10 20:15:49.055 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : Starting UserApplication on Kevin-PC with PID 31052 (E:\Project\Creation\user-system\target\classes started by Home in E:\Project\Creation\user-system)
+2023-03-10 20:15:49.057 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : No active profile set, falling back to default profiles: default
+2023-03-10 20:15:50.476 INFO  --- [  restartedMain] com.zeyi.user.UserApplication            : Started UserApplication in 1.723 seconds (JVM running for 2.711)
+2023-03-10 20:15:57.400 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:15:57.429 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:15:57.455 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:15:57.458 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:15:57.459 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:15:57.466 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:20:00.058 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:20:00.058 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:20:00.061 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:20:00.062 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:20:00.062 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:20:00.067 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:21:23.301 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:21:23.302 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:21:23.303 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:21:23.304 DEBUG --- [nio-8078-exec-3] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:21:23.304 DEBUG --- [nio-8078-exec-3] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:21:23.307 DEBUG --- [nio-8078-exec-3] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:21:29.335 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:21:29.335 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:21:29.336 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:21:29.336 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ?, ? 
+2023-03-10 20:21:29.337 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Long), 10(Integer)
+2023-03-10 20:21:29.345 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:21:32.067 DEBUG --- [nio-8078-exec-5] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:21:32.067 DEBUG --- [nio-8078-exec-5] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:21:32.068 DEBUG --- [nio-8078-exec-5] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:21:32.069 DEBUG --- [nio-8078-exec-5] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ?, ? 
+2023-03-10 20:21:32.069 DEBUG --- [nio-8078-exec-5] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 20(Long), 10(Integer)
+2023-03-10 20:21:32.070 DEBUG --- [nio-8078-exec-5] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 3
+2023-03-10 20:21:39.394 DEBUG --- [nio-8078-exec-6] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:21:39.394 DEBUG --- [nio-8078-exec-6] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:21:39.395 DEBUG --- [nio-8078-exec-6] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:21:39.395 DEBUG --- [nio-8078-exec-6] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ?, ? 
+2023-03-10 20:21:39.396 DEBUG --- [nio-8078-exec-6] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Long), 10(Integer)
+2023-03-10 20:21:39.397 DEBUG --- [nio-8078-exec-6] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:21:40.736 DEBUG --- [nio-8078-exec-7] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:21:40.736 DEBUG --- [nio-8078-exec-7] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:21:40.737 DEBUG --- [nio-8078-exec-7] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:21:40.738 DEBUG --- [nio-8078-exec-7] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:21:40.738 DEBUG --- [nio-8078-exec-7] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:21:40.739 DEBUG --- [nio-8078-exec-7] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:22:22.253 INFO  --- [nio-8078-exec-8] com.zeyi.user.controller.UserController  : 开始更新User，用户ID：22
+2023-03-10 20:22:22.256 DEBUG --- [nio-8078-exec-8] c.z.u.m.U.updateByPrimaryKeySelective    : ==>  Preparing: update user_info SET name = ?, age = ?, sex = ?, phone = ?, address = ?, update_time = ? where id = ? 
+2023-03-10 20:22:22.259 DEBUG --- [nio-8078-exec-8] c.z.u.m.U.updateByPrimaryKeySelective    : ==> Parameters: 大力(String), 23(Integer), 1(String), 15688889999(String), (String), 2023-03-10 20:22:22.254(Timestamp), 22(Integer)
+2023-03-10 20:22:22.261 DEBUG --- [nio-8078-exec-8] c.z.u.m.U.updateByPrimaryKeySelective    : <==    Updates: 1
+2023-03-10 20:22:22.262 INFO  --- [nio-8078-exec-8] c.zeyi.user.service.impl.UserServiceImpl : 用户ID：22 更新User成功！
+2023-03-10 20:22:22.270 DEBUG --- [io-8078-exec-10] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:22:22.271 DEBUG --- [io-8078-exec-10] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:22:22.272 DEBUG --- [io-8078-exec-10] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:22:22.273 DEBUG --- [io-8078-exec-10] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:22:22.273 DEBUG --- [io-8078-exec-10] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:22:22.275 DEBUG --- [io-8078-exec-10] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:22:31.209 DEBUG --- [nio-8078-exec-9] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:22:31.209 DEBUG --- [nio-8078-exec-9] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:22:31.210 DEBUG --- [nio-8078-exec-9] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:22:31.211 DEBUG --- [nio-8078-exec-9] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ?, ? 
+2023-03-10 20:22:31.211 DEBUG --- [nio-8078-exec-9] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Long), 10(Integer)
+2023-03-10 20:22:31.213 DEBUG --- [nio-8078-exec-9] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:22:31.766 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:22:31.766 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:22:31.767 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:22:31.768 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ?, ? 
+2023-03-10 20:22:31.768 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 20(Long), 10(Integer)
+2023-03-10 20:22:31.769 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 3
+2023-03-10 20:22:33.255 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:22:33.255 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:22:33.256 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:22:33.256 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:22:33.256 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:22:33.258 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:22:38.512 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ? AND sex = ?) 
+2023-03-10 20:22:38.513 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String), 女(String)
+2023-03-10 20:22:38.514 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:22:43.072 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ? AND sex = ?) 
+2023-03-10 20:22:43.072 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String), 男(String)
+2023-03-10 20:22:43.073 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:22:52.546 DEBUG --- [nio-8078-exec-5] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ? AND sex = ?) 
+2023-03-10 20:22:52.546 DEBUG --- [nio-8078-exec-5] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String), 1(String)
+2023-03-10 20:22:52.547 DEBUG --- [nio-8078-exec-5] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:22:52.548 DEBUG --- [nio-8078-exec-5] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ? AND sex = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:22:52.548 DEBUG --- [nio-8078-exec-5] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 1(String), 10(Integer)
+2023-03-10 20:22:52.549 DEBUG --- [nio-8078-exec-5] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 5
+2023-03-10 20:25:21.898 DEBUG --- [nio-8078-exec-7] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ? AND sex = ?) 
+2023-03-10 20:25:21.899 DEBUG --- [nio-8078-exec-7] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String), 0(String)
+2023-03-10 20:25:21.900 DEBUG --- [nio-8078-exec-7] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:25:21.900 DEBUG --- [nio-8078-exec-7] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ? AND sex = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:25:21.901 DEBUG --- [nio-8078-exec-7] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 0(String), 10(Integer)
+2023-03-10 20:25:21.902 DEBUG --- [nio-8078-exec-7] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:26:54.901 DEBUG --- [io-8078-exec-10] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:26:54.901 DEBUG --- [io-8078-exec-10] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:26:54.903 DEBUG --- [io-8078-exec-10] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:26:54.904 DEBUG --- [nio-8078-exec-9] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:26:54.904 DEBUG --- [nio-8078-exec-9] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:26:54.905 DEBUG --- [io-8078-exec-10] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:26:54.905 DEBUG --- [io-8078-exec-10] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:26:54.907 DEBUG --- [nio-8078-exec-9] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:26:54.907 DEBUG --- [io-8078-exec-10] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:26:54.908 DEBUG --- [nio-8078-exec-9] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:26:54.908 DEBUG --- [nio-8078-exec-9] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:26:54.910 DEBUG --- [nio-8078-exec-9] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:27:01.886 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:27:01.886 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:27:01.887 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:27:01.887 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:27:01.888 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:27:01.889 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:27:08.854 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:27:08.854 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:27:08.855 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:27:08.856 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:27:08.856 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:27:08.858 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:27:45.502 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:27:45.503 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:27:45.505 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:27:45.507 DEBUG --- [nio-8078-exec-3] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:27:45.507 DEBUG --- [nio-8078-exec-3] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:27:45.509 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:27:45.509 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:27:45.509 DEBUG --- [nio-8078-exec-3] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:27:45.510 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:27:45.511 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:27:45.511 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:27:45.514 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:27:52.632 DEBUG --- [nio-8078-exec-5] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ? AND phone LIKE ?) 
+2023-03-10 20:27:52.632 DEBUG --- [nio-8078-exec-5] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String), %2215%(String)
+2023-03-10 20:27:52.633 DEBUG --- [nio-8078-exec-5] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:27:52.634 DEBUG --- [nio-8078-exec-5] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ? AND phone LIKE ?) order by create_time desc LIMIT ? 
+2023-03-10 20:27:52.634 DEBUG --- [nio-8078-exec-5] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), %2215%(String), 10(Integer)
+2023-03-10 20:27:52.635 DEBUG --- [nio-8078-exec-5] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 1
+2023-03-10 20:27:58.508 DEBUG --- [nio-8078-exec-6] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ? AND address LIKE ?) 
+2023-03-10 20:27:58.508 DEBUG --- [nio-8078-exec-6] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String), %天河%(String)
+2023-03-10 20:27:58.509 DEBUG --- [nio-8078-exec-6] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:27:58.510 DEBUG --- [nio-8078-exec-6] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ? AND address LIKE ?) order by create_time desc LIMIT ? 
+2023-03-10 20:27:58.510 DEBUG --- [nio-8078-exec-6] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), %天河%(String), 10(Integer)
+2023-03-10 20:27:58.511 DEBUG --- [nio-8078-exec-6] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 3
+2023-03-10 20:31:15.090 INFO  --- [io-8078-exec-10] com.zeyi.user.controller.UserController  : 开始更新User，用户ID：7
+2023-03-10 20:31:15.091 DEBUG --- [io-8078-exec-10] c.z.u.m.U.updateByPrimaryKeySelective    : ==>  Preparing: update user_info SET name = ?, age = ?, sex = ?, phone = ?, address = ?, update_time = ? where id = ? 
+2023-03-10 20:31:15.092 DEBUG --- [io-8078-exec-10] c.z.u.m.U.updateByPrimaryKeySelective    : ==> Parameters: 大李(String), 36(Integer), 0(String), 15466668877(String), 广东省广州市天河区2街3号(String), 2023-03-10 20:31:15.09(Timestamp), 7(Integer)
+2023-03-10 20:31:15.094 DEBUG --- [io-8078-exec-10] c.z.u.m.U.updateByPrimaryKeySelective    : <==    Updates: 1
+2023-03-10 20:31:15.094 INFO  --- [io-8078-exec-10] c.zeyi.user.service.impl.UserServiceImpl : 用户ID：7 更新User成功！
+2023-03-10 20:31:15.103 DEBUG --- [nio-8078-exec-9] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:31:15.103 DEBUG --- [nio-8078-exec-9] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:31:15.104 DEBUG --- [nio-8078-exec-9] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:31:15.105 DEBUG --- [nio-8078-exec-9] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:31:15.105 DEBUG --- [nio-8078-exec-9] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:31:15.107 DEBUG --- [nio-8078-exec-9] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:31:26.219 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ? AND name LIKE ?) 
+2023-03-10 20:31:26.220 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String), %大李%(String)
+2023-03-10 20:31:26.220 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:31:26.221 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ? AND name LIKE ?) order by create_time desc LIMIT ? 
+2023-03-10 20:31:26.222 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), %大李%(String), 10(Integer)
+2023-03-10 20:31:26.223 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 1
+2023-03-10 20:32:59.003 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:32:59.003 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:32:59.004 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:32:59.004 DEBUG --- [nio-8078-exec-3] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:32:59.005 DEBUG --- [nio-8078-exec-3] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:32:59.006 DEBUG --- [nio-8078-exec-3] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:33:18.074 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:33:18.074 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:33:18.075 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:33:18.076 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ?, ? 
+2023-03-10 20:33:18.076 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Long), 10(Integer)
+2023-03-10 20:33:18.077 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:33:23.016 INFO  --- [nio-8078-exec-6] com.zeyi.user.controller.UserController  : 开始删除User，用户ID："4"
+2023-03-10 20:33:23.018 DEBUG --- [nio-8078-exec-6] c.z.u.m.UserInfoMapper.deleteByIdList    : ==>  Preparing: update user_info set del_flag = "1" where id in ( ? ) 
+2023-03-10 20:33:23.018 DEBUG --- [nio-8078-exec-6] c.z.u.m.UserInfoMapper.deleteByIdList    : ==> Parameters: 4(Integer)
+2023-03-10 20:33:23.020 DEBUG --- [nio-8078-exec-6] c.z.u.m.UserInfoMapper.deleteByIdList    : <==    Updates: 1
+2023-03-10 20:33:23.021 INFO  --- [nio-8078-exec-6] c.zeyi.user.service.impl.UserServiceImpl : 用户ID：[4] 删除成功！
+2023-03-10 20:33:23.030 DEBUG --- [nio-8078-exec-7] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:33:23.031 DEBUG --- [nio-8078-exec-7] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:33:23.031 DEBUG --- [nio-8078-exec-7] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:33:23.032 DEBUG --- [nio-8078-exec-7] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ?, ? 
+2023-03-10 20:33:23.032 DEBUG --- [nio-8078-exec-7] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Long), 10(Integer)
+2023-03-10 20:33:23.033 DEBUG --- [nio-8078-exec-7] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:33:30.887 DEBUG --- [nio-8078-exec-8] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ? AND name LIKE ?) 
+2023-03-10 20:33:30.888 DEBUG --- [nio-8078-exec-8] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String), %小明4%(String)
+2023-03-10 20:33:30.888 DEBUG --- [nio-8078-exec-8] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:33:30.898 DEBUG --- [io-8078-exec-10] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ? AND name LIKE ?) 
+2023-03-10 20:33:30.898 DEBUG --- [io-8078-exec-10] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String), %小明4%(String)
+2023-03-10 20:33:30.899 DEBUG --- [io-8078-exec-10] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:33:33.245 INFO  --- [nio-8078-exec-9] com.zeyi.user.controller.UserController  : 开始撤销操作
+2023-03-10 20:33:33.246 DEBUG --- [nio-8078-exec-9] c.z.u.m.UserInfoMapper.updateByIdList    : ==>  Preparing: update user_info set del_flag = "0" where id in ( ? ) 
+2023-03-10 20:33:33.246 DEBUG --- [nio-8078-exec-9] c.z.u.m.UserInfoMapper.updateByIdList    : ==> Parameters: 4(Integer)
+2023-03-10 20:33:33.248 DEBUG --- [nio-8078-exec-9] c.z.u.m.UserInfoMapper.updateByIdList    : <==    Updates: 1
+2023-03-10 20:33:33.248 INFO  --- [nio-8078-exec-9] c.zeyi.user.service.impl.UserServiceImpl : 用户ID：[4] 撤销删除成功！
+2023-03-10 20:33:33.257 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ? AND name LIKE ?) 
+2023-03-10 20:33:33.258 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String), %小明4%(String)
+2023-03-10 20:33:33.258 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:33:33.259 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ? AND name LIKE ?) order by create_time desc LIMIT ? 
+2023-03-10 20:33:33.259 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), %小明4%(String), 10(Integer)
+2023-03-10 20:33:33.260 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 1
+2023-03-10 20:33:35.715 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ? AND name LIKE ?) 
+2023-03-10 20:33:35.715 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String), %小明4%(String)
+2023-03-10 20:33:35.716 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:33:35.717 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ? AND name LIKE ?) order by create_time desc LIMIT ? 
+2023-03-10 20:33:35.717 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), %小明4%(String), 10(Integer)
+2023-03-10 20:33:35.717 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 1
+2023-03-10 20:35:16.570 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:35:16.571 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:35:16.571 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:35:16.572 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:35:16.573 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:35:16.573 DEBUG --- [nio-8078-exec-5] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:35:16.573 DEBUG --- [nio-8078-exec-5] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:35:16.574 DEBUG --- [nio-8078-exec-5] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:35:16.574 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:35:16.575 DEBUG --- [nio-8078-exec-5] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:35:16.576 DEBUG --- [nio-8078-exec-5] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:35:16.578 DEBUG --- [nio-8078-exec-5] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:35:47.089 DEBUG --- [nio-8078-exec-6] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:35:47.089 DEBUG --- [nio-8078-exec-6] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:35:47.090 DEBUG --- [nio-8078-exec-7] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:35:47.090 DEBUG --- [nio-8078-exec-7] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:35:47.090 DEBUG --- [nio-8078-exec-7] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:35:47.090 DEBUG --- [nio-8078-exec-6] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:35:47.091 DEBUG --- [nio-8078-exec-6] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:35:47.091 DEBUG --- [nio-8078-exec-7] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:35:47.092 DEBUG --- [nio-8078-exec-6] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:35:47.092 DEBUG --- [nio-8078-exec-7] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:35:47.094 DEBUG --- [nio-8078-exec-7] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:35:47.094 DEBUG --- [nio-8078-exec-6] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:35:50.206 DEBUG --- [nio-8078-exec-8] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:35:50.206 DEBUG --- [nio-8078-exec-8] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:35:50.207 DEBUG --- [nio-8078-exec-8] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:35:50.209 DEBUG --- [nio-8078-exec-8] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:35:50.210 DEBUG --- [nio-8078-exec-8] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:35:50.212 DEBUG --- [nio-8078-exec-8] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:36:58.688 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:36:58.688 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:36:58.689 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:36:58.690 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:36:58.690 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:36:58.692 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:36:58.692 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:36:58.692 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:36:58.693 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:36:58.694 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:36:58.694 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:36:58.695 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:37:32.337 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:37:32.337 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:37:32.338 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:37:32.338 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:37:32.339 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:37:32.339 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:37:32.341 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:37:32.341 DEBUG --- [nio-8078-exec-3] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:37:32.341 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:37:32.341 DEBUG --- [nio-8078-exec-3] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:37:32.343 DEBUG --- [nio-8078-exec-3] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:37:32.343 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:38:51.129 DEBUG --- [nio-8078-exec-6] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:38:51.129 DEBUG --- [nio-8078-exec-6] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:38:51.130 DEBUG --- [nio-8078-exec-6] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:38:51.130 DEBUG --- [nio-8078-exec-6] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:38:51.131 DEBUG --- [nio-8078-exec-6] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:38:51.131 DEBUG --- [nio-8078-exec-8] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:38:51.131 DEBUG --- [nio-8078-exec-8] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:38:51.131 DEBUG --- [nio-8078-exec-8] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:38:51.132 DEBUG --- [nio-8078-exec-6] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:38:51.132 DEBUG --- [nio-8078-exec-8] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:38:51.132 DEBUG --- [nio-8078-exec-8] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:38:51.133 DEBUG --- [nio-8078-exec-8] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:39:37.132 DEBUG --- [io-8078-exec-10] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:39:37.132 DEBUG --- [nio-8078-exec-9] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:39:37.132 DEBUG --- [io-8078-exec-10] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:39:37.132 DEBUG --- [nio-8078-exec-9] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:39:37.133 DEBUG --- [nio-8078-exec-9] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:39:37.133 DEBUG --- [io-8078-exec-10] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:39:37.134 DEBUG --- [nio-8078-exec-9] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:39:37.134 DEBUG --- [io-8078-exec-10] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:39:37.135 DEBUG --- [io-8078-exec-10] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:39:37.135 DEBUG --- [nio-8078-exec-9] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:39:37.137 DEBUG --- [io-8078-exec-10] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:39:37.137 DEBUG --- [nio-8078-exec-9] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:40:10.431 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:40:10.431 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:40:10.432 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:40:10.433 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:40:10.433 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:40:10.435 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:40:10.435 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:40:10.435 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:40:10.437 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:40:10.439 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:40:10.439 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:40:10.441 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:40:22.259 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ? AND sex = ?) 
+2023-03-10 20:40:22.259 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String), 1(String)
+2023-03-10 20:40:22.260 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:40:22.261 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ? AND sex = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:40:22.261 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 1(String), 10(Integer)
+2023-03-10 20:40:22.261 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 4
+2023-03-10 20:40:24.869 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ? AND sex = ?) 
+2023-03-10 20:40:24.869 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String), 0(String)
+2023-03-10 20:40:24.870 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:40:24.870 DEBUG --- [nio-8078-exec-3] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ? AND sex = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:40:24.870 DEBUG --- [nio-8078-exec-3] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 0(String), 10(Integer)
+2023-03-10 20:40:24.871 DEBUG --- [nio-8078-exec-3] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:40:56.761 DEBUG --- [nio-8078-exec-7] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:40:56.761 DEBUG --- [nio-8078-exec-5] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:40:56.761 DEBUG --- [nio-8078-exec-7] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:40:56.761 DEBUG --- [nio-8078-exec-5] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:40:56.761 DEBUG --- [nio-8078-exec-5] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:40:56.761 DEBUG --- [nio-8078-exec-7] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:40:56.762 DEBUG --- [nio-8078-exec-7] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:40:56.762 DEBUG --- [nio-8078-exec-5] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:40:56.762 DEBUG --- [nio-8078-exec-7] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:40:56.762 DEBUG --- [nio-8078-exec-5] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:40:56.763 DEBUG --- [nio-8078-exec-7] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:40:56.763 DEBUG --- [nio-8078-exec-5] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:41:14.429 DEBUG --- [nio-8078-exec-6] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:41:14.429 DEBUG --- [nio-8078-exec-6] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:41:14.432 DEBUG --- [nio-8078-exec-6] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:41:14.435 DEBUG --- [nio-8078-exec-6] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:41:14.435 DEBUG --- [nio-8078-exec-6] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:41:14.435 DEBUG --- [nio-8078-exec-8] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:41:14.437 DEBUG --- [nio-8078-exec-8] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:41:14.439 DEBUG --- [nio-8078-exec-8] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:41:14.439 DEBUG --- [nio-8078-exec-6] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:41:14.441 DEBUG --- [nio-8078-exec-8] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:41:14.441 DEBUG --- [nio-8078-exec-8] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:41:14.445 DEBUG --- [nio-8078-exec-8] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:42:32.942 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:42:32.942 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:42:32.943 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:42:32.944 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:42:32.944 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:42:32.945 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:42:32.945 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:42:32.945 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:42:32.946 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:42:32.946 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:42:32.946 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:42:32.948 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:42:51.821 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:42:51.822 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:42:51.822 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:42:51.823 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ?, ? 
+2023-03-10 20:42:51.823 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Long), 10(Integer)
+2023-03-10 20:42:51.823 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:42:52.394 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:42:52.395 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:42:52.395 DEBUG --- [nio-8078-exec-3] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:42:52.396 DEBUG --- [nio-8078-exec-3] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ?, ? 
+2023-03-10 20:42:52.396 DEBUG --- [nio-8078-exec-3] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 20(Long), 10(Integer)
+2023-03-10 20:42:52.396 DEBUG --- [nio-8078-exec-3] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 3
+2023-03-10 20:42:53.592 DEBUG --- [nio-8078-exec-7] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:42:53.593 DEBUG --- [nio-8078-exec-7] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:42:53.593 DEBUG --- [nio-8078-exec-7] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:42:53.593 DEBUG --- [nio-8078-exec-7] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:42:53.594 DEBUG --- [nio-8078-exec-7] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:42:53.594 DEBUG --- [nio-8078-exec-7] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:42:55.374 INFO  --- [nio-8078-exec-5] com.zeyi.user.controller.UserController  : 开始撤销操作
+2023-03-10 20:42:55.374 WARN  --- [nio-8078-exec-5] c.zeyi.user.service.impl.UserServiceImpl : 无法撤销：用户没有进行删除操作
+2023-03-10 20:46:01.102 DEBUG --- [io-8078-exec-10] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:46:01.102 DEBUG --- [io-8078-exec-10] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:46:01.106 DEBUG --- [nio-8078-exec-9] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:46:01.107 DEBUG --- [io-8078-exec-10] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:46:01.107 DEBUG --- [nio-8078-exec-9] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:46:01.109 DEBUG --- [nio-8078-exec-9] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:46:01.111 DEBUG --- [io-8078-exec-10] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:46:01.111 DEBUG --- [io-8078-exec-10] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:46:01.112 DEBUG --- [nio-8078-exec-9] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:46:01.112 DEBUG --- [nio-8078-exec-9] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:46:01.112 DEBUG --- [io-8078-exec-10] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:46:01.113 DEBUG --- [nio-8078-exec-9] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:46:05.787 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ? AND sex = ?) 
+2023-03-10 20:46:05.787 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String), 0(String)
+2023-03-10 20:46:05.788 DEBUG --- [nio-8078-exec-1] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:46:05.789 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ? AND sex = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:46:05.789 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 0(String), 10(Integer)
+2023-03-10 20:46:05.790 DEBUG --- [nio-8078-exec-1] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10
+2023-03-10 20:46:08.072 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ? AND sex = ?) 
+2023-03-10 20:46:08.072 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String), 1(String)
+2023-03-10 20:46:08.072 DEBUG --- [nio-8078-exec-2] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:46:08.073 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ? AND sex = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:46:08.073 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 1(String), 10(Integer)
+2023-03-10 20:46:08.073 DEBUG --- [nio-8078-exec-2] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 4
+2023-03-10 20:46:43.595 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : ==>  Preparing: SELECT count(0) FROM user_info WHERE (del_flag = ?) 
+2023-03-10 20:46:43.595 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : ==> Parameters: 0(String)
+2023-03-10 20:46:43.596 DEBUG --- [nio-8078-exec-4] c.z.u.m.U.selectByExample_COUNT          : <==      Total: 1
+2023-03-10 20:46:43.597 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : ==>  Preparing: SELECT id, name, age, sex, phone, address, del_flag, create_time, update_time, remarks FROM user_info WHERE (del_flag = ?) order by create_time desc LIMIT ? 
+2023-03-10 20:46:43.597 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : ==> Parameters: 0(String), 10(Integer)
+2023-03-10 20:46:43.598 DEBUG --- [nio-8078-exec-4] c.z.u.m.UserInfoMapper.selectByExample   : <==      Total: 10

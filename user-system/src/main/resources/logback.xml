@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="true">
+
+    <!-- ConsoleAppender：把日志输出到控制台 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- 默认情况下，每个日志事件都会立即刷新到基础输出流。 这种默认方法更安全，因为如果应用程序在没有正确关闭appender的情况下退出，则日志事件不会丢失。
+         但是，为了显着增加日志记录吞吐量，您可能希望将immediateFlush属性设置为false -->
+        <immediateFlush>true</immediateFlush>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %highlight(%-5level) --- [%15.15(%thread)] %cyan(%-40.40(%logger{40}))
+                : %msg%n
+            </pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- info 日志-->
+    <appender name="info_log" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <immediateFlush>true</immediateFlush>
+        <!--日志文件路径和名称-->
+        <File>logs/user.log</File>
+        <!--是否追加到文件末尾,默认为true-->
+        <append>true</append>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>DENY</onMatch><!-- 如果命中ERROR就禁止这条日志 -->
+            <onMismatch>ACCEPT</onMismatch><!-- 如果没有命中就使用这条规则 -->
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- 注意：SizeAndTimeBasedRollingPolicy中 ％i和％d令牌都是强制性的，必须存在，要不会报错 -->
+            <fileNamePattern>logs/user.%d.%i.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>5GB</totalSizeCap>
+            <maxFileSize>10MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level --- [%15.15(%thread)] %-40.40(%logger{40}) : %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- error 日志-->
+    <appender name="error_log" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <immediateFlush>true</immediateFlush>
+        <!--日志文件路径和名称-->
+        <File>logs/user_error.log</File>
+        <!--是否追加到文件末尾,默认为true-->
+        <append>true</append>
+        <!-- ThresholdFilter过滤低于指定阈值的事件。 对于等于或高于阈值的事件，ThresholdFilter将在调用其decision（）方法时响应NEUTRAL。 但是，将拒绝级别低于阈值的事件 -->
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level><!-- 低于ERROR级别的日志（debug,info）将被拒绝，等于或者高于ERROR的级别将相应NEUTRAL -->
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- 注意：SizeAndTimeBasedRollingPolicy中 ％i和％d令牌都是强制性的，必须存在，要不会报错 -->
+            <fileNamePattern>logs/user_error.%d.%i.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>2GB</totalSizeCap>
+            <maxFileSize>10MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level --- [%15.15(%thread)] %-40.40(%logger{40}) : %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+    <!-- 指定项目中某个包，当有日志操作行为时的日志记录级别 -->
+    <logger name="com.zeyi.user" level="INFO">
+        <appender-ref ref="info_log"/>
+        <appender-ref ref="error_log"/>
+    </logger>
+    <!-- Spring日志级别控制  -->
+    <logger name="org.springframework" level="warn"/>
+
+    <!-- 利用logback输入mybatis的sql日志，
+    注意：如果不加 additivity="false" 则此logger会将输出转发到自身以及祖先的logger中，就会出现日志文件中sql重复打印-->
+    <logger name="com.zeyi.user.mapper" level="DEBUG" additivity="false">
+        <appender-ref ref="info_log"/>
+        <appender-ref ref="error_log"/>
+    </logger>
+
+    <!-- additivity=false代表禁止默认累计的行为，即com.atomikos中的日志只会记录到日志文件中，不会输出层次级别更高的任何appender-->
+    <!--    <logger name="com.atomikos" level="INFO" additivity="false">
+            <appender-ref ref="info_log"/>
+            <appender-ref ref="error_log"/>
+        </logger>-->
+
+</configuration>

@@ -1,0 +1,23 @@
+server:
+  port: 8078
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: user-system
+  datasource:
+    url: jdbc:mysql://localhost:3306/user?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false
+    username: user
+    password: 123456
+
+# Mybatis
+mybatis:
+  type-aliases-package: com.zeyi.user.entity
+  mapper-locations: classpath:mapper/*.xml
+  map-underscore-to-camel-case: true
+
+logging:
+  level:
+    com.zeyi: debug
+    org.springframework: warn
